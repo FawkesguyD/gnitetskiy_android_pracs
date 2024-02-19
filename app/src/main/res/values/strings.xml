@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">KravchenkoEI</string>
+    <string name="button">подтвердить</string>
+    <string name="form"></string>
+    <string name="label">Hello %s</string>
+</resources>
