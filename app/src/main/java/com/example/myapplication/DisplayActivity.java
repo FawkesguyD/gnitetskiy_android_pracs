@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class page2 extends AppCompatActivity {
+public class DisplayActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page2);
+        setContentView(R.layout.activity_display);
 
         Bundle arguments = getIntent().getExtras();
 

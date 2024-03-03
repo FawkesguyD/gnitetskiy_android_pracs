@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -24,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 TextView source = findViewById(R.id.editTextText);
                 String inputText = source.getText().toString();
-                Intent intent = new Intent(MainActivity.this, page2.class);
+                Intent intent = new Intent(MainActivity.this, DisplayActivity.class);
                 intent.putExtra("name", inputText);
                 startActivity(intent);
             }
