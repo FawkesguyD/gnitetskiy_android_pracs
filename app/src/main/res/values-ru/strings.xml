@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Простое приложение</string>
+    <string name="button">подтвердить</string>
+    <string name="form">введите свое имя…</string>
+    <string name="label">Привет %s</string>
+    <string name="label_sdk_version"> Твоя версия sdk %s</string>
+</resources>
